@@ -1,0 +1,395 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Web\\Microservices.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj",
+        "projectName": "Microservices.Core",
+        "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj",
+        "packagesPath": "C:\\Users\\Shelby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shelby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\Microservices.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\Microservices.Data.csproj",
+        "projectName": "Microservices.Data",
+        "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\Microservices.Data.csproj",
+        "packagesPath": "C:\\Users\\Shelby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shelby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj": {
+                "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Calabonga.EntityFrameworkCore.Entities.Base": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Calabonga.UnitOfWork": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj",
+        "projectName": "Microservices.Entities",
+        "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj",
+        "packagesPath": "C:\\Users\\Shelby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shelby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj": {
+                "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Calabonga.EntityFrameworkCore.Entities.Base": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Web\\Microservices.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Web\\Microservices.Web.csproj",
+        "projectName": "Microservices.Web",
+        "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Web\\Microservices.Web.csproj",
+        "packagesPath": "C:\\Users\\Shelby\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Shelby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj": {
+                "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj"
+              },
+              "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\Microservices.Data.csproj": {
+                "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Data\\Microservices.Data.csproj"
+              },
+              "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj": {
+                "projectPath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Calabonga.EntityFrameworkCore.UnitOfWork": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Calabonga.Microservices.Core": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Calabonga.Microservices.Web.Core": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "Calabonga.UnitOfWork": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "Calabonga.UnitOfWork.Controllers": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "GitInfo": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.33, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "OperationResultCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "PagedListLiteCore": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

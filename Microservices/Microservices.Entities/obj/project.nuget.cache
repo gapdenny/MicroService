@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mzl5knnRt0SSBegZtu6kz8xXbkIBBCHRz9Sok+jRIIISZZbofSwgRwM+76N/Vgkp5dcMqDlvKw5t0FK1bwwjxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Entities\\Microservices.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shelby\\.nuget\\packages\\calabonga.entityframeworkcore.entities.base\\2.1.0\\calabonga.entityframeworkcore.entities.base.2.1.0.nupkg.sha512",
+    "C:\\Users\\Shelby\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

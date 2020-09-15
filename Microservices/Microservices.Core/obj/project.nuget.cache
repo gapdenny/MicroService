@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "010kI8sWTdiTj2wJBMNFozmGR/1OmFXCu0/XhOLGqaDKuj8aVMduzEW00NvVbVpblC1f80siE33R6B3zXFBLTA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Shelby\\source\\repos\\Microservices\\Microservices\\Microservices.Core\\Microservices.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shelby\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
